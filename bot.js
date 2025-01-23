@@ -3,7 +3,7 @@ const { Telegraf } = require('telegraf');
 const express = require('express');
 
 const BOT_TOKEN = '7756432870:AAFKIuwvjZ9koygjGKI_3yyBHitl0b5TyB8'; // Укажите ваш токен
-const WEBHOOK_URL = 'https://ваш-домен.vercel.app'; // Укажите домен вашего приложения
+const WEBHOOK_URL = 'https://telegram-bot-for-adding-to-group-2.onrender.com'; // Укажите домен вашего приложения
 
 const bot = new Telegraf(BOT_TOKEN);
 
